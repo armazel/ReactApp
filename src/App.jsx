@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Dropdown from './components/Dropdown'
 import Header from './components/Header'
+import RegistrationForm from './components/RegistrationForm'
 
 const menu = [
     {
@@ -26,6 +27,7 @@ class App extends Component {
             <div>
                 <Dropdown/>
                 <Header items={menu}/>
+                <RegistrationForm/>
             </div>
         );
     }
